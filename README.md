@@ -38,8 +38,8 @@ Your users should be able to:
 ### Links
 
 - Solution URL:
-  [FrontendMentor Challenge Hub](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ/hub)
-- Live Site URL: [GitHub Pages](grifano.github.io/fm-03-social-links-profile/)
+  [FrontendMentor Challenge Hub](https://www.frontendmentor.io/solutions/responsive-product-card-component-css-ILCwksw-aE)
+- Live Site URL: [GitHub Pages](https://grifano.github.io/fm-05-product-card/)
 
 ## Author
 

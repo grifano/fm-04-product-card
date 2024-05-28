@@ -13,7 +13,7 @@ from tech to the best cycling routes.
 
 Happy exploring!
 
-# Project: Social links profile coding challenge
+# Project: Product Card Component RWD coding challenge
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges that help to improve
 coding skills by building realistic projects.
@@ -27,7 +27,8 @@ possible.
 
 Your users should be able to:
 
-- See hover and focus states for all interactive elements on the page
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
 ### Tech Stack:
 
@@ -46,4 +47,4 @@ Your users should be able to:
 - Uxcel - [Design](https://app.uxcel.com/ux/EE4PBID94EEH)
 - Frontend Mentor -
   [Web Development](https://www.frontendmentor.io/profile/grifano)
-- Twitter - [@OrlenkoSerhii](https://twitter.com/OrlenkoSerhii)
+- LinkedIn - [Serhii Orlenko](https://www.linkedin.com/in/grifano/)

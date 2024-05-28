@@ -22,64 +22,71 @@
   <body>
     <main>
       <div class="container">
-        <div class="social-card_component">
-          <img
-            src="./images/avatar-jessica.jpeg"
-            alt="Jessica Randall"
-            width="88"
-            height="88"
-            class="social-card_avatar"
-          />
-          <p class="social-card_name">Jessica Randall</p>
-          <p class="social-card_location">London, United Kingdom</p>
-          <p class="social-card_role">"Front-end developer and avid reader."</p>
-          <ul class="social-card_list">
-            <li class="social-card_list-item">
-              <a
-                href="https://www.github.com"
-                rel="noopener noreferrer"
-                target="_blank"
-                class="social-card_link"
-                >GitHub</a
-              >
-            </li>
-            <li class="social-card_list-item">
-              <a
-                href="https://www.frontendmentor.io/"
-                rel="noopener noreferrer"
-                target="_blank"
-                class="social-card_link"
-                >Frontend Mentor</a
-              >
-            </li>
-            <li class="social-card_list-item">
-              <a
-                href="https://www.linkedin.com"
-                rel="noopener noreferrer"
-                target="_blank"
-                class="social-card_link"
-                >LinkedIn</a
-              >
-            </li>
-            <li class="social-card_list-item">
-              <a
-                href="https://www.x.com"
-                rel="noopener noreferrer"
-                target="_blank"
-                class="social-card_link"
-                >Twitter</a
-              >
-            </li>
-            <li class="social-card_list-item">
-              <a
-                href="https://www.instagram.com"
-                rel="noopener noreferrer"
-                target="_blank"
-                class="social-card_link"
-                >Instagram</a
-              >
-            </li>
-          </ul>
+        <div class="product-card_component">
+          <picture class="product-card_picture">
+            <!-- Mobile -->
+            <source
+              type="image/webp"
+              srcset="
+                ./images/perfume-small.webp,
+                ./images/perfume-small@2x.webp 2x
+              "
+              media="(min-width: 320px) and (max-width: 768px)"
+              width="343"
+              height="240"
+            />
+            <source
+              type="image/jpg"
+              srcset="
+                ./images/perfume-small.jpg,
+                ./images/perfume-small@2x.jpg 2x
+              "
+              media="(min-width: 320px) and (max-width: 768px)"
+              width="343"
+              height="240"
+            />
+            <!-- Desktop -->
+            <source
+              type="image/webp"
+              srcset="
+                ./images/perfume-big.webp,
+                ./images/perfume-big@2x.webp 2x
+              "
+              media="(min-width: 768px)"
+              width="300"
+              height="450"
+            />
+            <source
+              type="image/jpg"
+              srcset="./images/perfume-big.jpg, ./images/perfume-big@2x.jpg 2x"
+              media="(min-width: 768px)"
+              width="300"
+              height="450"
+            />
+            <!-- Default image for older browsers; this will be used if none of the above sources are compatible -->
+            <img
+              src="./images/perfume-small.jpg"
+              alt="Perfume bottle"
+              width="343"
+              height="240"
+              class="product-card_image"
+            />
+          </picture>
+          <div class="product-card_content">
+            <p class="product-card_caption">Perfume</p>
+            <h3 class="product-card_title">Gabrielle Essence Eau De Parfum</h3>
+            <p class="product-card_text">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="product-card_price-wrap">
+              <span class="product-card_price">$149.99</span>
+              <span class="product-card_old-price">$169.99</span>
+            </div>
+            <button class="product-card_button" type="button">
+              <span class="product-card_button-text">Add to Cart</span>
+            </button>
+          </div>
         </div>
       </div>
     </main>
